@@ -1,20 +1,20 @@
 # Getting Started with Create React App
 
 
-React-based web application that uses the following libraries:
+## React-based web application that uses the following libraries:
 
 React, react-dom/client : The main library used to build the web application.
 styled-components: A library used to style the components and make the UI visually appealing.
 react-loading: Easy to use loading animations for React projects. Uses SVG animations.
 
-The code consists of the following components:
-functional component:
+## The code consists of the following components:
+### functional component:
 
 Navbar: A component that displays a brand name and a button to get the user data.
 App : The component that uses an API call to fetch user data ,set into state variable and pass it to UserCard (component) as a props.
 UserCard: The main component that displays the user cards.displays a loading indicator while the data is being fetched.
 
-styled-components:
+### styled-components:
 
 Card: A component that represents a single user card and displays the user's name, email, and avatar.
 DisplayFlex: A styled-component that acts as a container for the UserCard components and displays them in a flexible grid layout.

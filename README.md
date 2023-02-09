@@ -23,11 +23,11 @@ Avatar: A styled-component that displays the user's avatar image.\
 Name: A styled-component that displays the user's name.\
 Email: A styled-component that displays the user's email.\
 
-The App component uses the useState hooks to manage its state and handle the API call. When the component is first rendered, loading state is false and when the user click the (get users) button , the loading state is set to true, react-loading (component) rendered and the loading "bars" animation is display, for half sec because of setTimeout function.
-the API call is made to fetch the user data. Once the data is fetched, the loading state is set to false and the data is passed to the UserCard components to be displayed.
+The App component uses the useState hooks to manage its state and handle the API call. When the component is first rendered, loading state is false and when the user click the (get users) button , the loading state is set to true, react-loading (component) rendered and the loading "bars" animation is display, for half sec because of setTimeout function.\
+the API call is made to fetch the user data. Once the data is fetched, the loading state is set to false and the data is passed to the UserCard components to be displayed.\
 
-The DisplayFlex component uses flexbox to create a flexible layout for the UserCard components. The Card, Avatar, Name, and Email components use styled-components to style their respective parts of the user cards. 
-The Navbar component displays a brand name and a button that triggers the API call to get the user data.
+The DisplayFlex component uses flexbox to create a flexible layout for the UserCard components. The Card, Avatar, Name, and Email components use styled-components to style their respective parts of the user cards. \
+The Navbar component displays a brand name and a button that triggers the API call to get the user data.\
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 

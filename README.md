@@ -1,5 +1,3 @@
-# Getting Started with Create React App
-
 
 ## React-based web application that uses the following libraries:
 
@@ -30,6 +28,9 @@ The DisplayFlex component uses flexbox to create a flexible layout for the UserC
 The Navbar component displays a brand name and a button that triggers the API call to get the user data.\
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

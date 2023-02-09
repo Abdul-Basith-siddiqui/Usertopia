@@ -3,25 +3,25 @@
 
 ## React-based web application that uses the following libraries:
 
-React, react-dom/client : The main library used to build the web application.
-styled-components: A library used to style the components and make the UI visually appealing.
-react-loading: Easy to use loading animations for React projects. Uses SVG animations.
+React, react-dom/client : The main library used to build the web application.\
+styled-components: A library used to style the components and make the UI visually appealing.\
+react-loading: Easy to use loading animations for React projects. Uses SVG animations.\
 
 ## The code consists of the following components:
 ### functional component:
 
-Navbar: A component that displays a brand name and a button to get the user data.
-App : The component that uses an API call to fetch user data ,set into state variable and pass it to UserCard (component) as a props.
-UserCard: The main component that displays the user cards.displays a loading indicator while the data is being fetched.
+Navbar: A component that displays a brand name and a button to get the user data.\
+App : The component that uses an API call to fetch user data ,set into state variable and pass it to UserCard (component) as a props.\
+UserCard: The main component that displays the user cards.displays a loading indicator while the data is being fetched.\
 
 ### styled-components:
 
-Card: A component that represents a single user card and displays the user's name, email, and avatar.
-DisplayFlex: A styled-component that acts as a container for the UserCard components and displays them in a flexible grid layout.
-Card: A styled-component that acts as a container for the user information in each UserCard component.
-Avatar: A styled-component that displays the user's avatar image.
-Name: A styled-component that displays the user's name.
-Email: A styled-component that displays the user's email.
+Card: A component that represents a single user card and displays the user's name, email, and avatar.\
+DisplayFlex: A styled-component that acts as a container for the UserCard components and displays them in a flexible grid layout.\
+Card: A styled-component that acts as a container for the user information in each UserCard component.\
+Avatar: A styled-component that displays the user's avatar image.\
+Name: A styled-component that displays the user's name.\
+Email: A styled-component that displays the user's email.\
 
 The App component uses the useState hooks to manage its state and handle the API call. When the component is first rendered, loading state is false and when the user click the (get users) button , the loading state is set to true, react-loading (component) rendered and the loading "bars" animation is display, for half sec because of setTimeout function.
 the API call is made to fetch the user data. Once the data is fetched, the loading state is set to false and the data is passed to the UserCard components to be displayed.
